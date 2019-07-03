@@ -20,6 +20,8 @@ WorldCloud生词辛弃疾词云
     （2）解析出页面中的词
      通过div查找到所有的词集：items = soup.find_all("div", {"class":"sons"})
      遍历其中的每一首词，获取词名、作者、内容：item_text = item_cont.find("div", {"class":"contson"})
+
+
      
      
     （3）词库解析，生成词云
@@ -30,4 +32,4 @@ WorldCloud生词辛弃疾词云
         wc.to_file(img_path)
         os.startfile(img_path)
       
-     
+     ![Image text](https://github.com/JelinYao/PythonTools/blob/master/Xinqiji.png?raw=true)
