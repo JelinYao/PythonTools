@@ -32,4 +32,4 @@ WorldCloud生词辛弃疾词云
         wc.to_file(img_path)
         os.startfile(img_path)
       
-     ![Image](https://raw.githubusercontent.com/JelinYao/PythonTools/master/Xinqiji.png)
+![Image](https://raw.githubusercontent.com/JelinYao/PythonTools/master/Xinqiji.png)
